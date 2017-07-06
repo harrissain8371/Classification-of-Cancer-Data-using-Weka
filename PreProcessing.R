@@ -1,6 +1,4 @@
 library(pROC)
-setwd('D:/BU/CS699 - SPRING 2017/Project/Files/')
-getwd()
 data7=read.csv('Morticd7.csv')
 head(data7,20)
 data7 = data7[,c(1,4,7,10:39,6)]
